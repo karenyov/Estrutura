@@ -27,9 +27,9 @@ public class Principal {
 			System.out.println("quant:" + quant);
 		}
 		
-		No w = inicio;
+		No w = inicio.proximo;
 		while (w != null) {
-			System.out.println(w.conteudo);
+			System.out.println("conteúdo: " + w.conteudo);
 			w = w.proximo;
 		}
 				
