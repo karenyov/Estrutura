@@ -26,6 +26,12 @@ public class Principal {
 			apontador.conteudo = quant;
 			System.out.println("quant:" + quant);
 		}
+		
+		No w = inicio;
+		while (w != null) {
+			System.out.println(w.conteudo);
+			w = w.proximo;
+		}
 				
 	}
 

@@ -32,8 +32,8 @@ public class Principal {
 		
 		// completar aqui
 		while (inicio != null) {
-			System.out.println(inicio.conteudo);
 			inicio = inicio.proximo;
+			System.out.println(inicio.conteudo);
 		}
 	}
 
